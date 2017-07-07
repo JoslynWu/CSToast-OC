@@ -13,7 +13,7 @@
 		9E1568F81EA7028A00C2CC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1568F61EA7028A00C2CC70 /* Main.storyboard */; };
 		9E1568FA1EA7028A00C2CC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1568F91EA7028A00C2CC70 /* Assets.xcassets */; };
 		9E1568FD1EA7028A00C2CC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1568FB1EA7028A00C2CC70 /* LaunchScreen.storyboard */; };
-		9E1569071EA7029800C2CC70 /* CSToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1569061EA7029800C2CC70 /* CSToast.m */; };
+		9E34C3E71F0F60000054EED6 /* CSToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E34C3E61F0F60000054EED6 /* CSToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		9E1568F91EA7028A00C2CC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E1568FC1EA7028A00C2CC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E1568FE1EA7028A00C2CC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E1569051EA7029800C2CC70 /* CSToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSToast.h; sourceTree = "<group>"; };
-		9E1569061EA7029800C2CC70 /* CSToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSToast.m; sourceTree = "<group>"; };
+		9E34C3E51F0F60000054EED6 /* CSToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSToast.h; sourceTree = "<group>"; };
+		9E34C3E61F0F60000054EED6 /* CSToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,7 @@
 		9E1568E11EA7028A00C2CC70 = {
 			isa = PBXGroup;
 			children = (
+				9E34C3E41F0F60000054EED6 /* Sources */,
 				9E1568EC1EA7028A00C2CC70 /* CSToastDemo */,
 				9E1568EB1EA7028A00C2CC70 /* Products */,
 			);
@@ -61,7 +62,6 @@
 		9E1568EC1EA7028A00C2CC70 /* CSToastDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9E1569041EA7029800C2CC70 /* lib */,
 				9E1568F01EA7028A00C2CC70 /* AppDelegate.h */,
 				9E1568F11EA7028A00C2CC70 /* AppDelegate.m */,
 				9E1568F31EA7028A00C2CC70 /* ViewController.h */,
@@ -83,13 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9E1569041EA7029800C2CC70 /* lib */ = {
+		9E34C3E41F0F60000054EED6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9E1569051EA7029800C2CC70 /* CSToast.h */,
-				9E1569061EA7029800C2CC70 /* CSToast.m */,
+				9E34C3E51F0F60000054EED6 /* CSToast.h */,
+				9E34C3E61F0F60000054EED6 /* CSToast.m */,
 			);
-			path = lib;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1568F51EA7028A00C2CC70 /* ViewController.m in Sources */,
-				9E1569071EA7029800C2CC70 /* CSToast.m in Sources */,
+				9E34C3E71F0F60000054EED6 /* CSToast.m in Sources */,
 				9E1568F21EA7028A00C2CC70 /* AppDelegate.m in Sources */,
 				9E1568EF1EA7028A00C2CC70 /* main.m in Sources */,
 			);
